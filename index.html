@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포트폴리오 링크트리</title>
+    <style>
+        body {
+            background: #f7f7f7;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: #fff;
+            padding: 32px 24px;
+            border-radius: 16px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+            margin-top: 48px;
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+        .profile-img {
+            width: 96px;
+            height: 96px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 16px;
+            border: 2px solid #e0e0e0;
+        }
+        h1 {
+            margin: 0 0 8px 0;
+            font-size: 2rem;
+        }
+        p {
+            color: #666;
+            margin-bottom: 24px;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .link-btn {
+            background: #0077ff;
+            color: #fff;
+            text-decoration: none;
+            padding: 14px 0;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+        .link-btn:hover {
+            background: #005fcc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://avatars.githubusercontent.com/u/9919?s=200&v=4" alt="프로필 이미지" class="profile-img">
+        <h1>홍길동</h1>
+        <p>웹 개발자 | 창의적인 문제 해결자 | 새로운 기술을 탐구하는 것을 좋아합니다.</p>
+        <div class="links">
+            <a class="link-btn" href="https://github.com/" target="_blank">GitHub</a>
+            <a class="link-btn" href="https://linkedin.com/" target="_blank">LinkedIn</a>
+            <a class="link-btn" href="mailto:your@email.com">이메일 보내기</a>
+            <a class="link-btn" href="https://yourblog.com/" target="_blank">블로그</a>
+            <a class="link-btn" href="https://yourportfolio.com/" target="_blank">포트폴리오</a>
+        </div>
+    </div>
+</body>
+</html>
